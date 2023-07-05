@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: #faf9f6; }
+  @media (min-width: 1600px){
+    .footer{background-color: lightgrey; width: 100%; height: fit-content;}
+    .footer footer{text-align: center;}
+    .leftcard{width: 750px; margin: 50px 0px 50px 50px; display: inline-block; float: left; background-color: rgba(173, 167, 167, 0.096); padding: 30px 30px;}
+    .leftcard img{width: 750px;}
+    .leftcard p{text-align: justify;}
+    .rightcard{width: 750px; display: inline-block; margin: 50px 50px 50px 0px; float: right;background-color: rgba(173, 167, 167, 0.096); padding: 30px 30px}
+    .rightcard img{width: 750px;}
+    .main{margin: px 0px 120px 0px;}
+    .main img.logo{width: 200px; margin: 20px 0px 0px 50px;}
+    h1{
+      margin: 30px 0px 0px 0px;
+      font-size: 90px;
+      width: 100%;
+      background-color: rgb(231, 229, 229);
+      height: fit-content;
+      padding: 0px 0px 0px 90px;
+    }
+    text{color: rgb(80, 227, 247); font-family:'Courier New', Courier, monospace; font-size: 130px;}
+  }
+  @media (max-width: 850px){
+   .footer{width: 100%; height: fit-content; background-color: lightgrey;}
+   .footer footer{text-align: center;}
+   .rightcard{width: 500px;; margin: 0px 0px 150px 150px; background-color: rgb(255, 255, 255); padding: 30px}
+   .leftcard{width: 500px; margin: 0px 0px 100px 150px; background-color: rgb(255, 255, 255); padding: 30px;}
+   .leftcard img{width: 500px;}
+   .leftcard p{text-align: justify;}
+   .rightcard img {width: 500px;}
+   .rightcard p{text-align: justify;}
+   .main img.logo{width: 150px;margin: 20px 0px 0px 50px;}
+   h1{
+    background-color: lightgrey;
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+   }
+   text{color:salmon; font-size: 50px; font-family: 'Courier New', Courier, monospace;}
+
+  }
